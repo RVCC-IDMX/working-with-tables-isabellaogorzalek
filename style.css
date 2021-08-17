@@ -1,3 +1,55 @@
 body {
   background-color: aliceblue;
 }
+
+table {
+  width: 400px; 
+  border-spacing: 40px;
+  margin-left: auto;
+  margin-right: auto; 
+  
+  }
+  
+  th,caption {
+    text-align: center; 
+  }
+  
+  table,th,td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    
+  }
+  
+  th,td {
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(139, 202, 202);
+  }
+  
+  tr:nth-child(odd) {
+    background-color:cornsilk;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: darkcyan;
+    border-style: dotted;
+    border-color:darksalmon;
+    padding: 15px;
+  }
+  
+  body {
+    background-color: rgba(116, 153, 147, 0.945);
+  }
+  
+  h2 {
+    text-align: center;
+    background-color:rgb(199, 195, 195);
+    border-style: dotted; 
+  }
+  
+  
+  
+  
